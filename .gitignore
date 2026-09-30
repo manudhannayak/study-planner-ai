@@ -1,0 +1,8 @@
+.env
+assignments.json
+__pycache__/
+*.pyc
+venv/
+.venv/
+.DS_Store
+.streamlit/secrets.toml
