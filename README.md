@@ -27,6 +27,22 @@ Canvas tells you what's due, but not when to work on it. As a full-time AI Engin
 3. **Plan:** study blocks are placed into the next free hours of the day, soonest deadline first.
 4. **Re-plan:** data is cached for 15 minutes; the Sync button clears the cache and rebuilds.
 
+## More views
+
+A heavier course load, synced across three active courses — the badge
+colors and "due this week" count update automatically as deadlines pile up:
+
+![Busier week with multiple courses synced](docs/dashboard_busy_week.png)
+
+When something is due today, it's bumped to the top of Today's Study Plan
+and flagged with a red "Today" badge so it can't be missed:
+
+![An assignment due today, auto-planned and flagged](docs/dashboard_due_today.png)
+
+*(These two use sample course data in place of a real Canvas sync, so the
+dashboard's badge, planning, and multi-course logic can be shown without
+exposing a real course roster.)*
+
 ## Tech stack
 
 Python · Streamlit · Canvas LMS REST API · requests · python-dotenv
